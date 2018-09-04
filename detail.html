@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品详情-拍鞋网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/category.css">
+<link rel="stylesheet" type="text/css" href="css/detail.css">
+<link rel="stylesheet" type="text/css" href="css/swiper3.1.0.min.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+	<div class="com-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return"></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu">
+            <span></span>
+        </a>
+   		商品详情
+	</div>
+    <!--头部隐藏菜单-->
+    <div class="m_menu hidden">
+        <div>
+            <i class="rotate45"></i>
+            <a href="index.html"><span><i class="m_bg"></i></span>首页</a>
+            <a href="category.html"><span><i class="m_bg"></i></span>分类搜索</a>
+            <a href="#"><span><i class="m_bg"></i></span>购物车</a>
+            <a href="#"><span><i class="m_bg"></i></span>我的拍鞋</a>
+        </div>
+	</div>
+	<div class="jiange"></div>
+    
+    <!--banner-->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="detail/d1.jpg" /></div>
+        <div class="swiper-slide"><img src="detail/d2.jpg" /></div>
+        <div class="swiper-slide"><img src="detail/d3.jpg" /></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!--商品说明-->
+  <div class="goodsinfo">
+    <h1>晨品2015夏季新品 舒适中粗跟休闲凉鞋 奢华水钻宝石甜美女鞋子</h1>
+    <div class="price">
+        市场价：<del><span class="oof">￥</span>398.00</del> 【3.2折 节省270元】<br>
+        <p>拍鞋价：<span class="oof">￥</span><b>128.00</b></p><br>
+        运费：<span>免运费 ,不支持货到付款</span> 
+	</div>
+	<!--商品颜色-->
+	<div id="js-selectpro">
+	    <div class="titlethree">颜色</div>
+   		<div class="color">
+            <ul>
+                <li><a title="米白色" href="#">
+                	<img src="detail/1.jpg" /></a>
+                </li>
+                <li class="current"><a title="粉红色" href="#">
+                	<img src="detail/2.jpg" /></a>
+                </li>
+                <li><a title="蓝色" href="#">
+               		<img src="detail/3.jpg" /></a>
+                </li>
+                <li><a title="深棕色" href="#">
+                	<img src="detail/4.jpg" /></a>
+                </li>
+            </ul>
+		</div>
+	 <!--商品尺码-->   
+    <div class="titlethree">尺码</div>
+    
+   	<div class="size">
+    	<ul>
+			<li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">34</a></li>
+ 			<li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">35</a></li>
+            <li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">36</a></li>
+            <li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">37</a></li>
+            <li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">38</a></li>
+            <li><a nums="100" vid="21951" rel="34" href="javascript:void(0)">39</a></li>
+        </ul>
+     </div>
+     
+	 <div class="numbox">
+        <div>数量</div>
+        <div class="numselect">
+        <a class="del noclick" href="javascript:void(0)"></a>
+        <input type="text" value="1">
+        <a class="add" href="javascript:void(0)"></a>
+        </div>
+    </div>
+	</div>
+
+    <div class="title"><a href="#" class="dblock">商品属性<i></i></a></div>
+    <div class="title"><a href="#" class="dblock">图文详情<i></i></a></div>
+    <div class="title"><a href="#" class="dblock">评价
+    <span class="gray">（已有</span>
+    <span class="red">64</span>
+    <span class="gray">人评价）</span><i></i></a></div>
+    <ul class="appraisal" id="js-commentlist">
+         <li>
+            <i class="star"><em style="width:100%"></em></i>
+            <b>赛薇*拉</b>
+            <span></span>
+            <p>颜色：粉红色   尺码：39</p>
+            <div>质量很好，款式很漂亮，平底穿着很舒适，尺码
+            也是标准的，很百搭的一双单鞋，非常喜欢。</div>
+        </li>
+        <li>
+            <i class="star"><em style="width:100%"></em></i>
+            <b>一口一个*弟</b>
+            <span></span>
+            <p>颜色：粉红色   尺码：38</p>
+            <div>非常轻，正品，很舒服，品质如一，鞋子很轻，舒适度高，
+            很满意。全5分，老客户，一如既往的合作。</div>
+        </li>
+    </ul>
+	</div>
+    
+    <!--店铺信息-->
+    <div class="shop">
+    <div>
+        <b>晨品旗舰店</b>
+            <i>综合评价：</i><i class="star"><em style="width:.20.049000%"></em></i> <i>4.9</i>
+        </div>
+         <a href="#" class="gotoshop">进入店铺</a>
+	</div>
+    
+    <!--网页底部-->
+ 	<div class="m_footer clear2">
+        <a class="m_icon m_icon_gotop" href="javascript:void(0);"></a>
+        
+        <div class="userinfo">
+                <a class="gray6" href="#/">登录</a>|
+                <span></span>
+                <a class="gray6" href="#">注册</a>|
+                <span></span>
+                <a class="gray6" href="#">用户反馈</a>|
+                <span></span>
+                <a class="gray6" href="#">客户端</a>
+        </div>
+        <div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>武2B-20110084</div>
+    </div>
+      
+      <div class="jiange"></div>
+    <!--下单栏-->
+    <div id="js-fixed-add-to-cart" class="fixed-addcart">
+		<i id="js-fav"></i>
+    	    <input type="button" value="立即购买" class="buy" id="js-buy" onclick='window.open("login.html","_self")'>
+			<input type="button" value="加入购物车" class="addcart" id="js-addcart">
+	</div>   
+</div>
+<script src="js/swiper3.1.0.jquery.min.js"></script>
+<script>        
+  var banner = new Swiper ('.swiper-container', {
+ 	 //initialSlide :0,
+	 autoplay:5000,
+	 pagination : '.swiper-pagination', //分页器
+	paginationClickable :true, //分页器可以点击切换
+  })
+
+	$(".home_menu").click(function()
+	{
+		$('.m_menu').toggleClass("hidden");
+	})
+	
+	
+	 $(".m_icon_gotop").click(function(event)
+  	{
+		$(window).scrollTop(0);
+		return false;  
+	})
+	
+	var $gotop=$('.m_icon_gotop');
+	$gotop.addClass('hidden');
+	$(window).scroll(function(){
+		var top=$(window).scrollTop();
+		var height=$(window).height();
+		//alert(height);
+		if(top>height/4){$gotop.removeClass('hidden');}else{$gotop.addClass('hidden');};
+	});
+</script>
+</body>
+</html>

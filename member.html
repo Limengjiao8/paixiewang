@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/category.css">
+<link rel="stylesheet" type="text/css" href="css/list.css">
+<link rel="stylesheet" type="text/css" href="css/member.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+    <div class="com-title list-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return list_return"></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu list_menu">
+            <span></span>
+        </a>
+        会员中心
+    </div>
+    <!--头部隐藏菜单-->
+    <div class="m_menu hidden">
+        <div>
+            <i class="rotate45"></i>
+            <a href="index.html"><span><i class="m_bg"></i></span>首页</a>
+            <a href="category.html"><span><i class="m_bg"></i></span>分类搜索</a>
+            <a href="#"><span><i class="m_bg"></i></span>购物车</a>
+            <a href="#"><span><i class="m_bg"></i></span>我的拍鞋</a>
+        </div>
+    </div>
+<!--会员信息-->
+    <!--小气泡-->
+    <div class="m_index_header">
+    	<a class="message_box" href="#">
+			<div class="box_bg"></div>
+			<i class="m_icon m_icon_message"></i>
+		</a>
+         <!--个人说明-->
+        <div class="m_index_info">
+			<a class="portrait_box" href="">
+				<img class="portrait_img" src="member/01.jpg">
+				<div class="box_bg"></div>
+				<i class="clear"></i>
+			</a>
+			<div class="portrait_name">
+				<span class="ellipsis">15515231658</span>
+				<i class="m_icon m_icon_lever m_lever0"></i>
+			</div>
+			<div class="portrait_info">
+				<a>成长值：50</a>|
+				<a>拍鞋币：20</a>
+			</div>
+			<i class="clear"></i>
+		</div>
+        <!--收藏-->
+        <div class="m_operate">
+			<a href="#">
+				0<br>
+				<span>收藏的商品</span>
+			</a>
+			<a href="#">
+				0<br>
+				<span>收藏的店铺</span>
+			</a>
+			<a href="#">
+				5<br>
+				<span>我的足迹</span>
+			</a>
+		</div>
+    </div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    
+    <!--收款-->
+    <ul class="m_list m_list_top_line bg_white p_index_menu">
+		<li class="p_menu">
+			<a href="#">
+				<i class="m_icon"></i><br>
+				待付款
+			</a>
+			<a href="#">
+				<i class="m_icon"></i><br>
+				待发货
+			</a>
+			<a href="#">
+				<i class="m_icon"></i><br>
+				待收货
+			</a>
+			<a href="#">
+				<i class="m_icon"></i><br>
+				待评价
+			</a>
+
+			<i class="clear"></i>
+		</li>
+        <!--订单-->
+		<li class="link">
+			<a href="#">
+				<i class="m_icon m_icon_order"></i>
+				全部订单
+				<div class="right">
+					查看全部已购商品
+					<span class="m_arrow">
+						<i class="rotate45"></i>
+						<i class="rotate135"></i>
+					</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    
+    <!--我的优惠券-->
+    <ul class="m_list m_list_top_line bg_white p_index_menu">
+		<li class="link">
+			<a href="#">
+				<i class="m_icon m_icon_sale"></i>
+				我的优惠券
+				<div class="right">
+					新增0张券
+					<span class="m_arrow">
+						<i class="rotate45"></i>
+						<i class="rotate135"></i>
+					</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    
+    <!--账户管理-->
+    <ul class="m_list m_list_top_line bg_white p_index_menu">
+		<li class="link">
+			<a href="#">
+				<i class="m_icon m_icon_user"></i>
+				账户管理
+				<div class="right">
+					<span class="m_arrow">
+						<i class="rotate45"></i>
+						<i class="rotate135"></i>
+					</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    
+    <!--帮助与反馈-->
+    <ul class="m_list m_list_top_line bg_white p_index_menu">
+		<li class="link">
+			<a href="#">
+				<i class="m_icon m_icon_help"></i>
+				帮助与反馈
+				<div class="right">
+					<span class="m_arrow">
+						<i class="rotate45"></i>
+						<i class="rotate135"></i>
+					</span>
+				</div>
+			</a>
+		</li>
+	</ul>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+     
+    <!--网页底部-->
+ 	<div class="m_footer clear2">
+        <div class="userinfo">
+                <a class="gray6 ellipsis1" href="#">px1551523f35</a>
+                <span></span>
+                <a class="gray6" href="#">退出</a>
+                <span></span>
+                <a class="gray6" href="#">客户端</a>
+        </div>
+        <div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>武2B-20110084</div>
+    </div>
+</div>
+<script>
+
+	$(".home_menu").click(function()
+	{
+		$('.m_menu').toggleClass("hidden");
+	})
+</script>
+</body>
+</html>

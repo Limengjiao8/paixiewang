@@ -1,0 +1,316 @@
+/* CSS Document */
+.jiange {
+    height: .9rem;
+    overflow: hidden;
+}
+.placeholder {
+height: .1rem;
+overflow: hidden;
+}
+.m_index_header {
+height: 3.8rem;
+position: relative;
+background: url(../member/member.png);
+margin-top: -0.9rem;
+border-bottom: #b8b8b8 solid 1px;
+background-size: 6.4rem 3.8rem;
+
+}
+.com-title { background:none; box-shadow:none; position:relative;}
+
+.m_index_header .message_box {
+float: right;
+height: .6rem;
+width: .6rem;
+line-height: .55rem;
+text-align: center;
+position: relative;
+margin: .9rem .35rem 0 0;
+}
+
+.m_index_header .message_box .box_bg {
+background: #000;
+opacity: 0.5;
+height: .6rem;
+width: .6rem;
+border-radius: .3rem;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.m_icon {
+background-image: url(../images/base.png);
+background-size: 6.9rem 7rem !important;
+}
+
+.m_icon_message {
+width: .32rem;
+height: .32rem;
+background-position: -3.22rem 0;
+}
+.m_index_header .m_index_info {
+width: 5.15rem;
+height: 1.2rem;
+float: left;
+margin: 1.26rem 0 0 .29rem;
+overflow: hidden;
+}
+.m_index_header .m_index_info .portrait_box {
+position: relative;
+height: 1.2rem;
+width: 1.2rem;
+border-radius: .6rem;
+line-height: .6rem;
+text-align: center;
+overflow: hidden;
+float: left;
+}
+.m_index_header .m_index_info .portrait_box .portrait_img {
+width: 1.1rem;
+height: 1.1rem;
+text-align: center;
+position: absolute;
+top: .05rem;
+left: .05rem;
+}
+
+.m_index_header .m_index_info .portrait_box .box_bg {
+height: 1.2rem;
+width: 1.2rem;
+background: #FFF;
+opacity: 0.5;
+position: absolute;
+top: 0rem;
+left: 0;
+border-radius: .6rem;
+background: #fff;
+opacity: 0.5;
+}
+.clear {
+clear: both;
+float: none;
+}
+
+.m_index_header .m_index_info .portrait_name, .m_index_header .m_index_info .portrait_info {
+line-height: .45rem;
+color: #fff;
+margin-left: .2rem;
+float: left;
+padding: 0; font-size:.3rem; 
+}
+.ellipsis {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;margin-top:.1rem;
+}
+.m_index_header .m_index_info .portrait_name span {
+display: inline-block;
+height: .5rem;
+max-width: 2.4rem;
+overflow: hidden;
+vertical-align: middle;
+}
+.m_icon_lever {
+width: .3rem;
+height: .25rem;
+}
+.m_lever0 {
+background-position: -2.05rem -5.02rem;
+}
+.m_index_header .m_index_info .portrait_name, .m_index_header .m_index_info .portrait_info {
+line-height: .45rem;
+color: #fff;
+margin-left: .2rem;
+float: left;
+padding: 0;
+}
+.m_index_header .m_index_info .portrait_info {
+font-size: .22rem;
+opacity: 0.8;
+}
+.m_index_header .m_index_info .portrait_info a {
+margin-right: .1rem;
+font-size: .22rem; color:#fff;
+}
+.m_index_header .m_operate {
+height: 1rem;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+padding: .1rem 0 0 0;
+background:rgba(0,0,0,.2);
+}
+.m_index_header .m_operate a {
+color: #fff;
+display: inline-block;
+width: 32%;
+text-align: center;
+line-height: .4rem;
+font-size: .3rem;
+}
+.m_index_header .m_operate a span {
+font-size: .24rem;
+}
+
+.bg_white {
+background: #fff !important;
+}
+.m_list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.m_list_top_line {
+border-top: 1px solid #e9e9e9;
+}
+.m_list>li.link>a, .m_list>li {
+padding: .22rem .24rem;
+font-size: .28rem;
+line-height: .3rem;
+list-style: none;
+border-bottom: 1px solid #e9e9e9;
+display: block;
+margin: 0;
+color: #666;
+text-decoration: none;
+position: relative;
+}
+.p_index_menu .p_menu a, .p_index_menu .p_menu a i {
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+margin-bottom: .05rem;
+}
+.p_index_menu .p_menu a {
+width: 23.5%;
+font-size: .2rem;
+color: #666;
+position: relative;
+}
+.p_index_menu .p_menu a, .p_index_menu .p_menu a i {
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+margin-bottom: .05rem;
+}
+.p_index_menu .p_menu a:nth-child(1) i {
+width: .4rem;
+height: .4rem;
+background-position: -4.34rem -4.4rem;
+}
+.p_index_menu .p_menu a:nth-child(2) i {
+width: .44rem;
+height: .44rem;
+background-position: -4.81rem -4.39rem;
+}
+.p_index_menu .p_menu a:nth-child(3) i {
+width: .55rem;
+height: .38rem;
+background-position: -5.26rem -4.4rem;
+}
+.p_index_menu .p_menu a:nth-child(4) i {
+width: .48rem;
+height: .45rem;
+background-position: -5.9rem -4.4rem;
+}
+.m_list>li.link {
+padding: 0;
+border: 0;
+}
+.m_icon_order {
+width: .58rem;
+height: .58rem;
+background-position: -1.24rem -4.4rem;
+}
+.right {
+float: right !important;
+}
+.p_index_menu .link .right {
+padding: .22rem 0;
+line-height: .52rem;
+color: #ccc;
+font-size: .24rem;
+font-family: 微软雅黑;
+}
+.m_list>li.link>a>.right, .m_list>li>.right {
+position: absolute;
+bottom: 0;
+top: 0;
+right: 0;
+padding-right: .5rem;
+}
+.m_arrow {
+display: inline-block;
+vertical-align: middle;
+position: relative;
+width: .14rem;
+height: .26rem;
+}
+.m_list>li.link>a>.right>.m_arrow, .m_list>li>.right>.m_arrow {
+position: absolute;
+top: 50%;
+margin-top: -.13rem;
+right: .24rem;
+}
+
+.m_arrow>i {
+background: #d3d3d3;
+height: .18rem;
+width: .02rem;
+position: absolute;
+top: .1rem;
+left: .06rem;
+}
+
+.rotate45 {
+-webkit-transform: rotate(45deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg);
+transform: rotate(45deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg);
+}
+.rotate135 {
+-webkit-transform: rotate(135deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg);
+transform: rotate(135deg) scale(1.00,1.00) translate(0px,0px) skew(0deg,0deg);
+}
+.m_arrow>i.rotate135 {
+top: -.02rem;
+}
+.m_icon_sale {
+width: .58rem;
+height: .58rem;
+background-position: -2.48rem -4.39rem;
+}
+.m_icon_user {
+width: .58rem;
+height: .58rem;
+background-position: -3.1rem -4.38rem;
+}
+.m_icon_help {
+width: .58rem;
+height: .58rem;
+background-position: -3.72rem -4.39rem;
+}
+.m_footer .userinfo a, .m_footer .userinfo span {
+display: inline-block;
+vertical-align: top;
+text-decoration: none;
+font-size: .26rem;
+}
+.m_footer .userinfo span {
+width: 1px;
+background: #999;
+height: .24rem;
+margin-top: .24rem;
+}
+.ellipsis1 {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.m_footer .userinfo a {
+padding: 0 .3rem;
+max-width: 2.8rem;
+}
+.m_footer .userinfo a:nth-child(1) {
+width: 1.7rem;
+}

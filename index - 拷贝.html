@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品详情-拍鞋网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};
+$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+    <div class="com-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return"></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu">
+            <span></span>
+        </a>
+        领券中心
+	</div>
+        
+	<!--banner-->
+  <div class="banner">
+    	<img src="img/banner.png" width="750" height="285">
+    </div>
+    
+    <!--tag-->
+    <div class="tag">
+       <a href="javascript:void(0);" class="cur">今日推荐</a>
+  	   <a href="javascript:void(0);">我的代金券</a>
+    </div>
+    
+    <!--list-->
+    <div class="list">
+    	<div class="list_content">
+        	<div class="list_left">
+            	<div class="voucher_title">
+                	<span>￥</span><b>80</b><em>全店通用代金券</em>
+                </div>
+                <div class="voucher_alt">满300元可用</div>
+                <div class="voucher_time">2016.08.13~2016.10.15</div>
+            </div>
+        	<div class="list_right">
+            	<div class="voucher_number">剩余19张</div>
+                <a href="javascript:void(0);" class="list_btn">立即领取</a>
+            </div>
+        </div>
+    </div>
+    <!--list-->
+    <div class="list">
+    	<div class="list_content">
+        	<div class="list_left">
+            	<div class="voucher_title">
+                	<span>￥</span><b>80</b><em>全店通用代金券</em>
+                </div>
+                <div class="voucher_alt">满300元可用</div>
+                <div class="voucher_time">2016.08.13~2016.10.15</div>
+            </div>
+        	<div class="list_right">
+            	<div class="voucher_number">剩余19张</div>
+                <a href="javascript:void(0);" class="list_btn">立即领取</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="voucher.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* 公共部分 */
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+    transform-origin: 50% 50%;
+}
+
+body {
+    font-size: .24rem;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+    line-height: 1;background: #f3f3f3 ;
+}
+html{ font-size:62.5%;}
+body{font-family:"Microsoft YaHei","simsun",Arial;color:#666; overflow-x:hidden; }
+body,form{margin:0px;padding:0px;}
+img{ border:none;vertical-align:middle;}
+i{ font-style:normal}
+a{ text-decoration:none; color:#666;}
+input,textarea{ outline:none;vertical-align:middle;}
+input,textarea,select{ font-size:100%; font-family:"Microsoft YaHei","Simsun",Arial;}
+textarea{ resize:none; overflow-y:auto;}
+input[type="submit"],input[type="reset"],input[type="button"]{ cursor:pointer;}
+h1,h2,h3,h4,h5,h6{ font-family:"Microsoft YaHei","Simsun",Arial; font-weight:normal; line-height:1; padding:0; margin:0;}
+h1{ font-size:36px;}
+h2{ font-size:30px;}
+h3{ font-size:24px;}
+h4{ font-size:18px;}
+h5{ font-size:16px;}
+h6{ font-size:14px;}
+hr{ border:none;border-top:1px solid #dacab1;margin:40px 0 0;}
+li,ul{list-style:none;padding:0;margin:0}
+
+.com-content {
+	
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+	min-width: 320px;
+	max-width: 1200px;
+}
+.com-title {
+	height:.8rem;
+	line-height:.8rem;
+	width: 100%;
+	font-family: 微软雅黑 !important;
+	font-size: .3rem;
+	background: #0080ba;
+	color: #fff;
+	text-align: center;
+	min-width: 320px;
+
+}
+
+.com-title .return {
+	width: .3rem;
+	height:.44rem;
+	top: .16rem;
+	left: .26rem;
+	position: absolute;
+	display:block;
+	background: url(img/back.png) no-repeat;
+	background-size: .23rem .44rem;
+}
+
+
+.com-title .home_menu {
+	display: inline-block;
+	vertical-align: middle;
+	right: .3rem;
+	top: .28rem;
+	position: absolute;
+	width: .45rem;
+	height:.4rem;
+	background:url(img/home_menu.png) no-repeat;
+	background-size: .45rem .26rem;
+}
+.banner {
+	width: 100%;
+	text-align: center;
+	min-width: 320px;
+}
+.banner img { width:100%; height:auto}
+
+.tag {
+	width: 100%;
+	text-align: center;
+	min-width: 320px;
+	background:#fff;
+}
+.tag a { display:inline-block; width:3.16rem; height:.8rem; font-size:.28rem; line-height:.8rem}
+.tag .cur { border-bottom:.06rem solid #0080ba; color:#0080ba}
+.list {width: 94%; margin:0 auto;min-width: 320px; margin-top:.24rem;}
+.list_content { background:url(img/list_bg.png) no-repeat; width:100%;
+background-size: 6.02rem auto;
+ height:1.57rem;}
+.list_left { margin-left:1.57rem; display:inline-block; width:2.9rem; margin-top:.2rem;vertical-align:top}
+.list_right { display:inline-block; width:1.45rem; margin-top:0; height:1rem;vertical-align:top; text-align:center;}
+.voucher_title { color:#0080ba;}
+.voucher_title span { font-size:.28rem; display:inline-block;}
+.voucher_title b { font-size:.5rem; display:inline-block}
+.voucher_title em { font-style:normal; font-size:.24rem; display:inline-block }
+.voucher_alt { margin:.1rem 0; font-size:.22rem;}
+.voucher_time { margin:.14rem 0; font-size:.22rem}
+.voucher_number {  color:#fff; margin-top:.4rem;font-size:.22rem}
+.list_btn { color:#F33A59; margin-top:.1rem; display:inline-block;font-size:.22rem; padding-left:.04rem; width:1.2rem; height:.75rem; padding-top:.26rem}

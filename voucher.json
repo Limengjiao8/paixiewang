@@ -1,0 +1,19 @@
+// JavaScript Document
+{
+	"voucher":[
+		{
+			"money":80,
+			"title":"全店通用代金券",
+			"explain":"满300元可用",
+			"date":"2016.08.13~2016.10.15",
+			"total":99
+		},
+		{
+			"money":20,
+			"title":"全店通用代金券",
+			"explain":"预定即可用",
+			"date":"2016.08.01~2016.12.31",
+			"total":50
+		}
+	]
+}

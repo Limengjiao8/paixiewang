@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>登陆</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/category.css">
+<link rel="stylesheet" type="text/css" href="css/list.css">
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+	<div class="com-title list-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return list_return"></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu list_menu">
+            <span></span>
+        </a>
+   		登陆
+	</div>
+    <!--头部隐藏菜单-->
+    <div class="m_menu hidden">
+        <div>
+            <i class="rotate45"></i>
+            <a href="index.html"><span><i class="m_bg"></i></span>首页</a>
+            <a href="category.html"><span><i class="m_bg"></i></span>分类搜索</a>
+            <a href="#"><span><i class="m_bg"></i></span>购物车</a>
+            <a href="#"><span><i class="m_bg"></i></span>我的拍鞋</a>
+        </div>
+	</div>
+    <div class="jiange"></div>
+
+    <!--登陆主体-->
+    <div class="lib_content" id="js_lib_content" style="min-height: 587px;">
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <ul from-submit="js_login" class="m_list m_list_form m_list_form_separate">
+    	<!--账户-->
+        <li class="select-text">
+            <label for="js_username">
+                账户
+            </label>
+            <input id="js_username" placeholder="手机号/邮箱" type="text" value="">
+            <div class="right text-v">
+                <a class="m_icon m_icon_del" style="display: none; opacity: 0;">
+                    <dfn class="rotate45"></dfn>
+                    <dfn class="rotate135"></dfn>
+                </a>
+                <span class="m_arrow rotate90">
+                    <i class="rotate45"></i>
+                    <i class="rotate135"></i>
+                </span>
+            </div>
+		</li>
+        <!--登录密码-->
+        <li class="password">
+            <label for="js_password">
+                登录密码
+            </label>
+            <input id="js_password" placeholder="请输入密码" type="password">
+            <div class="right text-v"  id="pswd">
+                <a class="m_icon m_icon_del" style="display: none; opacity: 0;">
+                    <dfn class="rotate45"></dfn>
+                    <dfn class="rotate135"></dfn>
+                </a>
+                <label class="m_setting m_setting_password">
+                    <i></i>
+                    <span><b><dfn></dfn><dfn></dfn><dfn></dfn></b></span>
+                    <strong><b>ABC</b></strong>
+                    
+                </label>
+            </div>
+        </li>
+    </ul>
+	<!--登录按钮sdisabled="disabled"-->
+    <a id="js_login" class="m_button m_button_orange m_button_block" href="member.html" >登录</a>
+    <!--快速注册-->
+    <div class="w600">
+        <a class="gray9" href="/register/">快速注册</a>
+        <a class="gray9 right" href="/forget/">找回密码</a>
+    </div>
+    
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="w600 gray9">其它登录方式</div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="placeholder"></div>
+    <div class="w600 otherlogin">
+        <a class="sina gray9" href="#"><i class="m_bg"></i>新浪微博</a>
+        <a class="qq gray9" href="#"><i class="m_bg"></i>QQ</a>
+        <a class="qh360 gray9" href="#"><i class="m_bg"></i>360</a>
+        <a class="zhifubao gray9" href="#"><i class="m_bg"></i>支付宝</a>
+	</div>
+
+	</div>
+    <!--网页底部-->
+ 	<div class="m_footer clear2">
+        <div class="userinfo">
+                <a class="gray6" href="#/">登录</a>|
+                <span></span>
+                <a class="gray6" href="#">注册</a>|
+                <span></span>
+                <a class="gray6" href="#">用户反馈</a>|
+                <span></span>
+                <a class="gray6" href="#">客户端</a>
+        </div>
+        <div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>武2B-20110084</div>
+    </div>
+</div>
+<script>
+	$(".home_menu").click(function()
+	{
+		$('.m_menu').toggleClass("hidden");
+	})
+	
+	$('#pswd').click(function()
+	{
+		//alert($('.m_setting_password i').position().left)
+		var span1=$('.m_setting_password span');
+		if(span1.is(":visible"))
+		{
+			$('.m_setting_password i').css('left','.02rem')
+			$('.m_setting_password span').hide();
+			$('.m_setting_password strong').show();
+			$('#js_password').attr('type','text');
+		}else{
+			$('.m_setting_password i').css('left','.46rem')
+			$('.m_setting_password span').show();
+			$('.m_setting_password strong').hide();
+			$('#js_password').attr('type','password');
+		}
+	})
+	
+</script>
+</body>
+</html>

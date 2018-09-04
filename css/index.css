@@ -1,0 +1,426 @@
+/* CSS Document */
+.swiper-container{ width: 100%;  height: 2rem;margin: 0;}
+.swiper-slide{color:#fff;text-align:center; }
+.swiper-slide img {width:100%;}
+
+* {
+    box-sizing: border-box;
+    transform-origin: 50% 50%;
+}
+
+body {
+    font-size: .24rem;
+    font-family: 微软雅黑;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.jiange {
+    height: .1rem;
+    overflow: hidden;
+}
+.all {min-width:320px;max-width:1200px;margin:-1px auto;background:#f6f6f6;box-shadow:0 0 .05rem #000;color:#020202;position:relative;padding:1px 0}
+.m_header {height:1rem;background:#ff5000;line-height:1rem;font-size: .32rem;text-align:center;color:#fff;position:fixed;left:0;right:0;top:0;z-index:9;box-shadow:0 0 .05rem #666;} 
+.m_head {    height: 1rem;    line-height: 1rem;}
+.head_content {position:relative}
+.head_content .logo {width:1.42rem;height:.48rem;display:inline-block;vertical-align:middle;background:url(../images/home.png) no-repeat;background-position:0 0;background-size:5rem 1.36rem;float:left;margin:.25rem .2rem 0 .2rem;position:relative}
+.head_content .search {height:.65rem;width:3.7rem;background:#e2430c;border-radius:.05rem;display:inline-block;float:left;line-height:.65rem;margin:.18rem 0 0 0; color:#fff;}
+
+.m_icon {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.m_icon {
+    background-image:url(../images/base.png);
+    background-size: 6.9rem 7rem;
+}
+.m_icon_search{width:.44rem;height:.44rem;background-position:-2.3rem 0rem;}
+.m_icon_head_user {
+    width: .38rem;
+    height: .42rem;
+    background-position: -6.42rem 0;
+}
+
+.p_notice {
+    padding: 0 .24rem;
+    background: #FFF;
+    overflow: hidden;
+    height: .6rem;
+    line-height: .6rem; position:relative; margin-top:.96rem;
+}
+
+.m_icon_notice {
+    width: .33rem;
+    height: .27rem;
+    background-position: -2.54rem -2.94rem;
+}
+.p_notice_list {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+}
+.p_notice_list li {
+    height: .6rem;
+    line-height: .6rem;
+}
+.p_notice_list li a {
+    color: #999;
+}
+.p_menu {
+    padding: .22rem .24rem; background:#fff;
+}
+.p_menu a {
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    font-size: .22rem;
+    color: #999;
+}
+.m_icon_menu {
+    width: .82rem;
+    height: .82rem;
+    background-position: -3.41rem -5.43rem;
+}
+.m_icon_car {
+    width: .82rem;
+    height: .82rem;
+    background-position: -4.29rem -5.43rem;
+}
+.m_icon_logistics {
+    width: .82rem;
+    height: .82rem;
+    background-position: -5.16rem -5.43rem;
+}
+.m_icon_coin {
+    width: .82rem;
+    height: .82rem;
+    background-position: -6.05rem -5.43rem;
+}
+
+.p_menu a span {
+    display: block;
+    line-height: .4rem;
+}
+
+.limit_list {
+    background: #FFF;
+    list-style: none;
+    padding: .1rem 0;
+    margin: 0;
+    text-align: center;
+}
+.limit_list li {
+    display: inline-block;
+    width: 2rem;
+    height: 2.6rem;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+}
+.limit_list li.clock {
+    position: relative;
+}
+
+.img200 {
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 0;
+    display: inline-block;
+    background-size: .17rem .03rem;
+}
+
+.limit_list li span {
+    color: #ff5000;
+    line-height: .4rem;
+}
+.limit_list li.clock img {
+    position: absolute;
+    width: 2rem;
+    height: 2.6rem;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.limit_list li.clock .time {
+    position: absolute;
+    z-index: 2;
+    top: 1.3rem;
+    left: .2rem;
+    color: #666;
+}
+.limit_list li.clock .time span {
+    background: #666;
+    color: #fff;
+    display: inline-block;
+    height: .4rem;
+    width: .4rem;
+    border-radius: .2rem;
+    text-align: center;
+    line-height: .4rem;
+    margin: 0 .05rem;
+}
+
+.p_title {
+    border-bottom: .02rem solid #e9e9e9;
+    line-height: .96rem;
+    font-size: .28rem;
+    color: #333;
+    padding: 0 .24rem;
+    margin: 0;
+    position: relative;
+    background: #FFF;
+}
+
+.m_icon_especially {
+    width: .4rem;
+    height: .4rem;
+    background-position: -2.94rem -2.92rem;
+}
+.especially {
+    padding: 0 0 .1rem 0;
+    height: 3.1rem;
+    background: #FFF;
+    overflow: hidden;
+}
+.especially .especially_left_feild {
+    width: 3.55rem;
+    height: 3.2rem;
+}
+.especially .especially_left_feild, .especially .especially_right_feild {
+    float: left;
+    overflow: hidden;
+}
+.especially .especially_right_feild {
+    width: 2.8rem;
+    height: 3rem;
+    border-left: #e6e6e6 solid .02rem;
+}
+.especially .especially_left_feild a:nth-child(1) {
+    border-bottom: #e6e6e6 solid .02rem;
+}
+.especially .especially_left_feild a {
+    height: 1.52rem;
+    width: 3.55rem;
+    display: block;
+}
+
+.especially>div>a {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.especially .especially_left_feild img {
+    width: 3.55rem;
+    height: 1.5rem;
+    display: block;
+}
+.especially .especially_right_feild img {
+    width: 2.82rem;
+    height: 3rem;
+}
+.clear {
+    clear: both;
+    float: none;
+}
+
+.ad_field_two {
+    height: 2rem;
+    width: 6.4rem;
+    overflow: hidden;
+    clear: both; position:relative;
+}
+
+
+.m_icon_brand {
+    width: .4rem;
+    height: .4rem;
+    background-position: -3.37rem -2.94rem;
+}
+.opc { opacity:.1;}
+
+.brand {
+    padding: 0 0 .1rem 0;
+    height: 3.1rem;
+    background: #FFF;
+}
+.brand .brand_left_feild {
+    width: 2.85rem;
+}
+.brand .brand_left_feild, .brand .brand_right_feild {
+    float: left;
+    overflow: hidden;
+}
+.brand_left_feild a {
+    float: left;
+    width: 1.42rem;
+    height: .77rem;
+    border-right: #e6e6e6 solid .02rem;
+    border-bottom: #e6e6e6 solid .02rem;
+    text-align: center;
+}
+.brand_left_feild a img {
+    height: .5rem;
+    width: 1rem;
+    margin-top: .11rem;
+}
+.brand .brand_right_feild {
+    width: 3.55rem;
+    margin-left: -.01rem;
+}
+.brand .brand_right_feild a {
+    height: 1.54rem;
+    width: 3.55rem;
+    border-bottom: #e6e6e6 solid .02rem;
+    display: block;
+}
+.brand .brand_right_feild a img {
+    height: 1.5rem;
+    width: 3.55rem;
+}
+.p_home_menu {
+    background: #FFF;
+}
+.p_home_menu > div {
+    height: 1.15rem;
+    border-bottom: #e6e6e6 solid .02rem;
+}
+.p_home_menu>div>a:nth-child(1) {
+    border-left: none;
+}
+.p_home_menu>div>a {
+    display: inline-block;
+    width: 3.16rem;
+    height: 1.13rem;
+    line-height: 1.13rem;
+    border-left: #e6e6e6 solid .02rem;
+}
+.p_home_menu>div>a>img {
+    width: 3.14rem;
+    height: 1.12rem; margin-top:-.04rem;
+}
+.p_favorite {
+line-height: .6rem;
+font-size: .28rem;
+color: #999;
+padding: 0 .4rem;
+margin: 0;
+position: relative;
+text-align: center;
+}
+.p_favorite:before {
+content: ' ';
+position: absolute;
+top: 50%;
+left: 1.66rem;
+width: .5rem;
+border-bottom: #999 dashed .02rem;
+}
+.p_favorite:after {
+content: ' ';
+position: absolute;
+top: 50%;
+right: 1.66rem;
+width: .5rem;
+border-bottom: #999 dashed .02rem;
+}
+
+.m_list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.m_goods_list {
+	padding: 0 0 0 .24rem;
+}
+.m_goods_list .m_goods_cell {
+width: 2.8rem;
+height: 3.8rem;
+background: #FFF;
+display: inline-block;
+overflow: hidden;
+margin: .24rem .2rem 0 0;
+position: relative;
+}
+.m_goods_list .m_goods_cell .img {
+height: 2.8rem;
+width: 2.8rem;
+}
+img {
+border: none;
+vertical-align: middle;
+}
+.m_goods_list .m_goods_cell .title {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+height: .4rem;
+width: 2.8rem;
+line-height: .4rem;
+padding: 0 .1rem;
+}
+.gray6, a.gray6 {
+color: #666 !important;
+}
+.ellipsis {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.m_goods_list .m_goods_cell .fact_price {
+padding: 0 .1rem;
+}
+.f28 {
+font-size: .28rem !important;
+line-height: .48rem;
+}
+.orange, a.orange {
+color: #ff5000 !important;
+}
+
+.text-center, .text-c {
+text-align: center !important;
+-webkit-box-pack: center !important;
+box-pack: center !important;
+}
+
+.m_button {
+line-height: .7rem;
+height: .74rem;
+border: .02rem solid #ccc;
+padding: 0 .32rem;
+display: inline-block;
+vertical-align: middle;
+background: none;
+border-radius: .04rem;
+margin: 0;
+color: #999;
+text-decoration: none;
+font-size: .28rem;
+text-align: center;
+}
+.m_button_radius {
+border-radius: .37rem;
+}
+.m_icon_down {
+width: .24rem;
+height: .24rem;
+background-position: -3.81rem -2.94rem;
+}
+
+.ad_field_one {
+height: 2rem;
+}
+.ad_field_one a img {
+height: 2rem;
+width: 6.4rem;
+}
+
+
+.hidden{display:none !important}
+
+
+
+

@@ -1,0 +1,181 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>列表页-拍鞋网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/category.css">
+<link rel="stylesheet" type="text/css" href="css/list.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+	<div class="com-title list-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return list_return"></a>
+        <a class="list_search" href="#"><i class="m_icon list_icon_search"></i></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu list_menu">
+            <span></span>
+        </a>
+   		列表页
+	</div>
+    <!--头部隐藏菜单-->
+    <div class="m_menu hidden">
+        <div>
+            <i class="rotate45"></i>
+            <a href="index.html"><span><i class="m_bg"></i></span>首页</a>
+            <a href="category.html"><span><i class="m_bg"></i></span>分类搜索</a>
+            <a href="#"><span><i class="m_bg"></i></span>购物车</a>
+            <a href="#"><span><i class="m_bg"></i></span>我的拍鞋</a>
+        </div>
+	</div>
+    
+ 	 <!--推荐标签-->
+ 	<div class="m_tab_select">
+    <a href="#" class="orange">推荐</a>
+    <a href="#">热卖</a>
+    <a href="#">价格</a>
+    <a href="#" id="js-filter">筛选</a>
+    </div>
+    
+    <!--商品列表-->
+    <div class="m_goods">
+    	<div id="js_goodslist" class="m_list m_goods_list">
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/0c63c4b684_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    毅雅 2015水钻网纱蝴蝶结平跟凉鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="detail.html">
+                    <img class="img" src="list/79cc9c13a1_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    2015年夏季新款网纱鱼嘴高跟女鞋欧美防水台粗跟时尚女凉鞋潮正品</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/7971b614f3_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    专柜正品达芙妮女凉鞋夏季款平底舒适平跟耐磨防滑女鞋1013303099</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/d0f1844e41_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    漫格诱惑露趾真皮平跟夏季休闲百搭学生鞋交叉绑带妈妈鞋女凉鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/20a501a88a_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    晨品2015夏季新品 舒适中粗跟休闲凉鞋 奢华水钻宝石甜美女鞋子</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/79cb3244fe_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    巫卡卡性感鱼嘴磨砂凉鞋镂空系带细高跟拖鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/0ed88346c8_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    2015欧美时尚百搭夏季水钻女凉鞋舒适平底松紧扣带人字女鞋平底鞋凉鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/11b5225403_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    莱卡金顿2015新款高跟女凉鞋 休闲时尚魔术贴防水台鱼嘴粗跟女鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>    
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/9ffa63790d_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    2015欧美时尚百搭夏季水钻女凉鞋舒适平底松紧扣带人字女鞋平底鞋凉鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>
+            <div class="m_goods_cell">
+                <a href="#">
+                    <img class="img" src="list/e11f068d0a_thumb_220220.jpg">
+                    <p class="title f26 gray6 ellipsis">
+                    莱卡金顿2015新款高跟女凉鞋 休闲时尚魔术贴防水台鱼嘴粗跟女鞋</p>
+                    <span class="fact_price f28 orange">¥99.00</span>
+                </a>
+			</div>        
+        </div>
+        
+        <div class="m_loading" data-url="mode=ajax" data-lastid="" data-listid="js_goodslist" data-template="tpl_list">
+            正在加载...
+        </div>
+    </div>
+    
+    
+    <!--网页底部-->
+ 	<div class="m_footer clear2">
+        <a class="m_icon m_icon_gotop" href="javascript:void(0);"></a>
+        
+        <div class="userinfo">
+                <a class="gray6" href="#/">登录</a>|
+                <span></span>
+                <a class="gray6" href="#">注册</a>|
+                <span></span>
+                <a class="gray6" href="#">用户反馈</a>|
+                <span></span>
+                <a class="gray6" href="#">客户端</a>
+        </div>
+        <div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>武2B-20110084</div>
+    </div>
+</div>
+<script>
+	$(".home_menu").click(function()
+	{
+		$('.m_menu').toggleClass("hidden");
+	})
+	$('#js-classify-title li').click(function()
+	{
+		$(this).addClass('on').siblings().removeClass('on');
+		var index=$('#js-classify-title li').index($(this));
+		$('.p-conright > div').eq(index).show().siblings().hide();
+	})
+	
+	 $(".m_icon_gotop").click(function(event)
+  	{
+		$(window).scrollTop(0);
+		return false;  
+	})
+	
+	var $gotop=$('.m_icon_gotop');
+	$gotop.addClass('hidden');
+	$(window).scroll(function(){
+		var top=$(window).scrollTop();
+		var height=$(window).height();
+		//alert(height);
+		if(top>height/4){$gotop.removeClass('hidden');}else{$gotop.addClass('hidden');};
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+/* CSS Document */
+.com-content {
+	background: #f6f6f6 ;
+}
+.m_tab_select {
+padding: .20rem .24rem;
+background: #FFF;
+width: 6.4rem;
+position: fixed;
+z-index: 1;
+border-bottom: #f3f3f3 solid .01rem;
+position: fixed; top:.9rem;
+}
+.m_tab_select>a {
+color: #666;
+font-size: .24rem;
+width: 24.1%;
+display: inline-block;
+border-right: #e6e6e6 solid .02rem;
+text-align: center;
+height: .36rem;
+line-height: .36rem;
+}
+.orange, a.orange {
+color: #ff5000 !important;
+}
+.m_tab_select>a:last-child {
+border-right: none;
+}
+
+.m_goods { margin-top:1.65rem;}
+
+.m_list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.m_goods_list {
+padding: 0 0 0 .24rem;
+}
+.m_goods_list .m_goods_cell {
+width: 2.8rem;
+height: 3.8rem;
+background: #FFF;
+display: inline-block;
+overflow: hidden;
+margin: .24rem .2rem 0 0;
+position: relative;
+}
+.m_goods_list .m_goods_cell .img {
+height: 2.8rem;
+width: 2.8rem;
+}
+.ellipsis {
+overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.m_goods_list .m_goods_cell .title {
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+height: .4rem;
+width: 2.8rem;
+line-height: .4rem;
+padding: 0 .1rem;
+}
+.f28 {
+font-size: .28rem !important;
+line-height: .48rem;
+}
+.m_goods_list .m_goods_cell .fact_price {
+padding: 0 .1rem;
+}
+
+.m_loading {
+text-align: center;
+padding: .5rem 0 .5rem 0;
+color: #999;
+line-height: .46rem;
+}
+.m_loaded {
+padding: 0;
+height: 0;
+overflow: hidden;
+}

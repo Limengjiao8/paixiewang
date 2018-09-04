@@ -1,0 +1,363 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>商品分类-拍鞋网</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/category.css">
+<script src="js/jquery-1.10.1.min.js"></script>
+<script>
+function remReSize(){var w = $(window).width();try{w = $(parent.window).width();}catch(ex){};if(w>1200){w = 1200;};if(w<320){w = 320;};$('html').css('font-size',100/640*w+'px');};remReSize();$(window).resize(remReSize);$(document).ready(function() {remReSize();});for(var i=0;i<3;i++){setTimeout(remReSize, 100*i);};
+</script>
+</head>
+<body>
+<div class="com-content">
+	<!--头部-->
+	<div class="com-title">
+        <a title="返回" href="javascript:history.back();void(0)" class="return"></a>
+        <a title="菜单" href="javascript:void(0);" class="home_menu">
+            <span></span>
+        </a>
+   		找商品
+	</div>
+    <!--头部隐藏菜单-->
+    <div class="m_menu hidden">
+        <div>
+            <i class="rotate45"></i>
+            <a href="index.html"><span><i class="m_bg"></i></span>首页</a>
+            <a href="category.html"><span><i class="m_bg"></i></span>分类搜索</a>
+            <a href="#"><span><i class="m_bg"></i></span>购物车</a>
+            <a href="#"><span><i class="m_bg"></i></span>我的拍鞋</a>
+        </div>
+	</div>
+    <!--分类/品牌 按钮-->
+    <div class="p-tag">
+		<a href="category.html" class="current">分类</a>
+		<a href="brand.html">品牌</a>
+	</div>
+    
+    <!--分类列表-->
+    <div class="p-content">
+    	<div class="p-conleft">
+            <ul class="classify-title" id="js-classify-title">
+                <li class="on">女鞋</li>
+                <li>男鞋</li>
+                <li>运动</li>
+                <li>女装</li>
+                <li>男装</li>
+                <li>户外</li>
+                <li>儿童</li>
+                <li>服饰配件</li>
+                <li>家居箱包</li>
+            </ul>
+        </div>
+        
+        <div class="p-conright">
+        	<!--二级分类单元-->
+            <div class="js-con-1">
+               <div class="p-two-title">
+                    <p style="color:#; ">人气单品</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/danpin1.jpg" alt="">
+                         <span>39元</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/danpin2.jpg" alt="">
+                         <span>45元</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/danpin3.jpg" alt="">
+                         <span>56元</span></a>
+                       </li>
+                         <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">热销品类</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="list.html"><img src="category/rexiao1.jpg" alt="">
+                         <span>平底凉鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/rexiao2.jpg" alt="">
+                         <span>高跟凉鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/rexiao3.jpg" alt="">
+                         <span>时尚美单</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/rexiao4.jpg" alt="">
+                         <span>性感高跟</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/rexiao5.jpg" alt="">
+                         <span>增高鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/rexiao6.jpg" alt="">
+                         <span>帆布鞋</span></a>
+                       </li>
+                          <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">潮流元素</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/chaoliu1.jpg" alt="">
+                         <span>高跟</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu2.jpg" alt="">
+                         <span>尖头</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu3.jpg" alt="">
+                         <span>鱼嘴</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/chaoliu4.jpg" alt="">
+                         <span>通勤</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu5.jpg" alt="">
+                         <span>防水台</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu6.jpg" alt="">
+                         <span>蝴蝶结</span></a>
+                       </li>                       <li>
+                         <a href="#"><img src="category/chaoliu7.jpg" alt="">
+                         <span>内增高</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu8.jpg" alt="">
+                         <span>学院风</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu9.jpg" alt="">
+                         <span>网面</span></a>
+                       </li>
+                         <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">品牌推荐</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/pinpai1.jpg" alt="">
+                         <span>达芙妮</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/pinpai2.jpg" alt="">
+                         <span>卓诗尼</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai3.jpg" alt="">
+                         <span>美丽佳人</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai4.jpg" alt="">
+                         <span>大东</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/pinpai5.jpg" alt="">
+                         <span>星期六</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai6.jpg" alt="">
+                         <span>柯玛妮克</span></a>
+                       </li>
+                          <div class="clearboth"></div>
+                    </ul>
+                </div>
+            </div>
+            <!--二级分类单元- end -->
+            <div class="js-con-2" style="display:none">
+               <div class="p-two-title">
+                    <p style="color:#; ">人气单品</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/nan1.jpg" alt="">
+                         <span>39元</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan2.jpg" alt="">
+                         <span>45元</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan3.jpg" alt="">
+                         <span>56元</span></a>
+                       </li>
+                         <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">热销品类</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/nan4.jpg" alt="">
+                         <span>平底凉鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan5.jpg" alt="">
+                         <span>高跟凉鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan6.jpg" alt="">
+                         <span>时尚美单</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan7.jpg" alt="">
+                         <span>性感高跟</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan8.jpg" alt="">
+                         <span>增高鞋</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/nan9.jpg" alt="">
+                         <span>帆布鞋</span></a>
+                       </li>
+                          <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">潮流元素</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/chaoliu1.jpg" alt="">
+                         <span>高跟</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu2.jpg" alt="">
+                         <span>尖头</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu3.jpg" alt="">
+                         <span>鱼嘴</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/chaoliu4.jpg" alt="">
+                         <span>通勤</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu5.jpg" alt="">
+                         <span>防水台</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu6.jpg" alt="">
+                         <span>蝴蝶结</span></a>
+                       </li>                       <li>
+                         <a href="#"><img src="category/chaoliu7.jpg" alt="">
+                         <span>内增高</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu8.jpg" alt="">
+                         <span>学院风</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/chaoliu9.jpg" alt="">
+                         <span>网面</span></a>
+                       </li>
+                         <div class="clearboth"></div>
+                    </ul>
+                </div>
+                				
+                <div class="p-two-title">
+                    <p style="color:#; ">品牌推荐</p>
+                    <ul class="p-three-title">
+                       <li>
+                         <a href="#"><img src="category/pinpai1.jpg" alt="">
+                         <span>达芙妮</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/pinpai2.jpg" alt="">
+                         <span>卓诗尼</span></a>
+
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai3.jpg" alt="">
+                         <span>美丽佳人</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai4.jpg" alt="">
+                         <span>大东</span></a>
+                       </li> 
+                       <li>
+                         <a href="#"><img src="category/pinpai5.jpg" alt="">
+                         <span>星期六</span></a>
+                       </li>
+                       <li>
+                         <a href="#"><img src="category/pinpai6.jpg" alt="">
+                         <span>柯玛妮克</span></a>
+                       </li>
+                          <div class="clearboth"></div>
+                    </ul>
+                </div>
+            </div>
+             <div class="js-con-3" style="display:none">33333333333</div>
+             <div class="js-con-4" style="display:none">444444444444</div>
+             <div class="js-con-5" style="display:none">55555555555555</div>
+             <div class="js-con-6" style="display:none">66666666666666</div>
+             <div class="js-con-7" style="display:none">777777777777777</div>
+             <div class="js-con-8" style="display:none">888888888888888</div>
+             <div class="js-con-9" style="display:none">9999999999999</div>
+        </div>
+    </div>
+    
+    <!--网页底部-->
+ 	<div class="m_footer clear2">
+        <a class="m_icon m_icon_gotop" href="javascript:void(0);"></a>
+        
+        <div class="userinfo">
+                <a class="gray6" href="#/">登录</a>|
+                <span></span>
+                <a class="gray6" href="#">注册</a>|
+                <span></span>
+                <a class="gray6" href="#">用户反馈</a>|
+                <span></span>
+                <a class="gray6" href="#">客户端</a>
+        </div>
+        <div class="copyright gray9">© 2007-2015 Paixie All Rights Reserved<br>武2B-20110084</div>
+    </div>
+       
+</div>
+<script>
+	$(".home_menu").click(function()
+	{
+		$('.m_menu').toggleClass("hidden");
+	})
+	$('#js-classify-title li').click(function()
+	{
+		$(this).addClass('on').siblings().removeClass('on');
+		var index=$('#js-classify-title li').index($(this));
+		$('.p-conright > div').eq(index).show().siblings().hide();
+	})
+	
+	 $(".m_icon_gotop").click(function(event)
+  	{
+		$(window).scrollTop(0);
+		return false;  
+	})
+	
+	var $gotop=$('.m_icon_gotop');
+	$gotop.addClass('hidden');
+	$(window).scroll(function(){
+		var top=$(window).scrollTop();
+		var height=$(window).height();
+		//alert(height);
+		if(top>height/4){$gotop.removeClass('hidden');}else{$gotop.addClass('hidden');};
+	});
+</script>
+</body>
+</html>
